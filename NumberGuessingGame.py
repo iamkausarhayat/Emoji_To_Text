@@ -8,7 +8,7 @@ high = int(input("Enter the Upper Bound: "))
 print(f"\nYou have 7 chances to guess the number between {low} and {high}. Let's start!")
 
 num = random.randint(low, high) 
-ch = 7                       # Total allowed chances
+ch = 10                  # Total allowed chances
 gc = 0                        # Guess counter
 
 while gc < ch:
@@ -16,7 +16,7 @@ while gc < ch:
     guess = int(input('Enter your guess: '))
 
     if guess == num:
-        print(f'Correct wow mashallah saqib . allah aap ko khush rakeee, congratulation50! The number is {num}. You guessed it in {gc} attempts.')
+        print(f'Correct wow mashallah Faheem Bhai  . allah aap ko khush rakeee, congratulation50! The number is {num}. You guessed it in {gc} attempts.')
         break
 
     elif gc >= ch and guess != num:
